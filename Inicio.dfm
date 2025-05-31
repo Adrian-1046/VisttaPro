@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   Menu = MainMenu1
+  WindowState = wsMaximized
   TextHeight = 15
   object MainMenu1: TMainMenu
     Left = 544
@@ -21,5 +22,15 @@ object Form1: TForm1
         Caption = 'S0 - Alterar Senha'
       end
     end
+  end
+  object Q_Padrao: TFDQuery
+    Connection = DM.CONEXAO
+    Left = 520
+    Top = 120
+  end
+  object DS_Padrao: TDataSource
+    DataSet = Q_Padrao
+    Left = 520
+    Top = 192
   end
 end

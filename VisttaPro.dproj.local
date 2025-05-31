@@ -3,18 +3,23 @@
 	<Transactions>
     <Transaction>2025/05/28 20:05:05.000.610,=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/05/31 12:07:48.000.474,=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/05/31 12:24:54.000.188,C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Login.pas</Transaction>
-    <Transaction>2025/05/31 12:24:54.000.188,C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Login.dfm</Transaction>
-    <Transaction>2025/05/31 12:51:54.000.208,C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Adrian\VisttaPro\VisttaPro.dproj</Transaction>
-    <Transaction>2025/05/31 12:57:30.338,=C:\Users\Adrian\VisttaPro\Unit1.pas</Transaction>
-    <Transaction>2025/05/31 12:58:45.943,C:\Users\Adrian\VisttaPro\Inicio.dfm=C:\Users\Adrian\VisttaPro\Unit1.dfm</Transaction>
-    <Transaction>2025/05/31 12:58:45.943,C:\Users\Adrian\VisttaPro\Inicio.pas=C:\Users\Adrian\VisttaPro\Unit1.pas</Transaction>
-    <Transaction>2025/05/31 13:03:34.960,=C:\Users\Adrian\VisttaPro\PassWord.pas</Transaction>
+    <Transaction>2025/05/31 12:24:54.000.188,C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Login.dfm=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/05/31 12:24:54.000.188,C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Login.pas=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/31 12:51:54.000.208,C:\Users\Adrian\VisttaPro\VisttaPro.dproj=C:\Users\Adrian\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/05/31 12:57:30.000.338,=C:\Users\Adrian\VisttaPro\Unit1.pas</Transaction>
+    <Transaction>2025/05/31 12:58:45.000.943,C:\Users\Adrian\VisttaPro\Unit1.pas=C:\Users\Adrian\VisttaPro\Inicio.pas</Transaction>
+    <Transaction>2025/05/31 12:58:45.000.943,C:\Users\Adrian\VisttaPro\Unit1.dfm=C:\Users\Adrian\VisttaPro\Inicio.dfm</Transaction>
+    <Transaction>2025/05/31 13:03:34.000.960,=C:\Users\Adrian\VisttaPro\PassWord.pas</Transaction>
+    <Transaction>2025/05/31 16:19:56.440,=C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas</Transaction>
+    <Transaction>2025/05/31 16:20:47.752,C:\Users\User\Documents\repositories\VisttaPro\U_DM.dfm=C:\Users\User\Documents\repositories\VisttaPro\Unit1.dfm</Transaction>
+    <Transaction>2025/05/31 16:20:47.752,C:\Users\User\Documents\repositories\VisttaPro\U_DM.pas=C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Login.pas"/>
     <File Path="Login.dfm"/>
     <File Path="Inicio.pas"/>
     <File Path="Inicio.dfm"/>
+    <File Path="U_DM.pas"/>
+    <File Path="U_DM.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>
