@@ -25,7 +25,7 @@ object DM: TDM
     Top = 96
   end
   object FDPhysFBDriverLink1: TFDPhysFBDriverLink
-    Left = 464
-    Top = 104
+    Left = 472
+    Top = 96
   end
 end

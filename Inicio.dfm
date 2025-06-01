@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 442
-  ClientWidth = 656
+  ClientHeight = 634
+  ClientWidth = 1075
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,24 +13,53 @@ object Form1: TForm1
   Menu = MainMenu1
   WindowState = wsMaximized
   TextHeight = 15
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 615
+    Width = 1075
+    Height = 19
+    Panels = <
+      item
+        Width = 150
+      end
+      item
+        Width = 150
+      end
+      item
+        Width = 50
+      end>
+    ExplicitTop = 606
+    ExplicitWidth = 1069
+  end
   object MainMenu1: TMainMenu
-    Left = 544
-    Top = 288
+    Left = 968
+    Top = 360
     object Sistema1: TMenuItem
       Caption = 'S - Sistema'
       object N0AlterarSenha1: TMenuItem
         Caption = 'S0 - Alterar Senha'
       end
     end
+    object N0Cadastro1: TMenuItem
+      Caption = '0 - Cadastro'
+      object N0Cadastro2: TMenuItem
+        Caption = '01 - Cadastro de Usu'#225'rio'
+      end
+    end
   end
   object Q_Padrao: TFDQuery
     Connection = DM.CONEXAO
-    Left = 520
-    Top = 120
+    Left = 968
+    Top = 232
   end
   object DS_Padrao: TDataSource
     DataSet = Q_Padrao
-    Left = 520
-    Top = 192
+    Left = 968
+    Top = 288
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 968
+    Top = 432
   end
 end

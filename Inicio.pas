@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, FireDAC.Stan.Intf,
   FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
   FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
-  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.ExtCtrls, Vcl.ComCtrls;
 
 type
   TForm1 = class(TForm)
@@ -16,6 +16,11 @@ type
     N0AlterarSenha1: TMenuItem;
     Q_Padrao: TFDQuery;
     DS_Padrao: TDataSource;
+    StatusBar1: TStatusBar;
+    Timer1: TTimer;
+    N0Cadastro1: TMenuItem;
+    N0Cadastro2: TMenuItem;
+    procedure Timer1Timer(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,5 +35,13 @@ implementation
 {$R *.dfm}
 
 uses U_DM;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  // Insere os dados na StatusBar
+  Statusbar1.Panels[0].Text:=DateTostr(now);
+  Statusbar1.Panels[1].Text:=TimeTostr(now);
+  Statusbar1.Panels[2].Text:='SEJA BEM VINDO AO SISTEMA VISTTA PRO';
+end;
 
 end.
