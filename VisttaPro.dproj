@@ -102,7 +102,7 @@
             <Form>FLogin</Form>
         </DCCReference>
         <DCCReference Include="Inicio.pas">
-            <Form>frmInicio</Form>
+            <Form>fmInicio</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="U_DM.pas">
