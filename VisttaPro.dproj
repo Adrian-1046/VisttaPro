@@ -99,16 +99,20 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="Login.pas">
-            <Form>fmLogin</Form>
+            <Form>FLogin</Form>
         </DCCReference>
         <DCCReference Include="Inicio.pas">
-            <Form>Form1</Form>
+            <Form>frmInicio</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="U_DM.pas">
             <Form>DM</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="CadUsuario.pas">
+            <Form>FCadUsuario</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

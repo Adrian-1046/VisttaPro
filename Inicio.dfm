@@ -1,7 +1,7 @@
-object Form1: TForm1
+object fmInicio: TfmInicio
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'fmInicio'
   ClientHeight = 634
   ClientWidth = 1075
   Color = clBtnFace
@@ -10,6 +10,7 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  FormStyle = fsMDIForm
   Menu = MainMenu1
   WindowState = wsMaximized
   TextHeight = 15
@@ -31,6 +32,20 @@ object Form1: TForm1
     ExplicitTop = 606
     ExplicitWidth = 1069
   end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 1075
+    Height = 615
+    ActivePage = tsInicio
+    Align = alClient
+    TabOrder = 1
+    ExplicitWidth = 1069
+    ExplicitHeight = 606
+    object tsInicio: TTabSheet
+      Caption = 'P'#225'gina Inicial'
+    end
+  end
   object MainMenu1: TMainMenu
     Left = 968
     Top = 360
@@ -44,6 +59,7 @@ object Form1: TForm1
       Caption = '0 - Cadastro'
       object N0Cadastro2: TMenuItem
         Caption = '01 - Cadastro de Usu'#225'rio'
+        OnClick = N0Cadastro2Click
       end
     end
   end
@@ -61,5 +77,10 @@ object Form1: TForm1
     OnTimer = Timer1Timer
     Left = 968
     Top = 432
+  end
+  object ActionManager1: TActionManager
+    Left = 968
+    Top = 504
+    StyleName = 'Platform Default'
   end
 end

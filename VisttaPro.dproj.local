@@ -13,6 +13,9 @@
     <Transaction>2025/05/31 16:19:56.000.440,=C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas</Transaction>
     <Transaction>2025/05/31 16:20:47.000.752,C:\Users\User\Documents\repositories\VisttaPro\U_DM.dfm=C:\Users\User\Documents\repositories\VisttaPro\Unit1.dfm</Transaction>
     <Transaction>2025/05/31 16:20:47.000.752,C:\Users\User\Documents\repositories\VisttaPro\U_DM.pas=C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas</Transaction>
+    <Transaction>2025/06/10 21:08:29.000.656,=C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas</Transaction>
+    <Transaction>2025/06/10 21:09:53.000.002,C:\Users\User\Documents\repositories\VisttaPro\Unit1.pas=C:\Users\User\Documents\repositories\VisttaPro\CadUsuario.pas</Transaction>
+    <Transaction>2025/06/10 21:09:53.000.002,C:\Users\User\Documents\repositories\VisttaPro\Unit1.dfm=C:\Users\User\Documents\repositories\VisttaPro\CadUsuario.dfm</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Login.pas"/>
@@ -21,5 +24,7 @@
     <File Path="Inicio.dfm"/>
     <File Path="U_DM.pas"/>
     <File Path="U_DM.dfm"/>
+    <File Path="CadUsuario.pas"/>
+    <File Path="CadUsuario.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

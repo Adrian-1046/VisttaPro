@@ -32481,6 +32481,7 @@ object fmLogin: TfmLogin
       Height = 30
       Caption = 'Entrar'
       TabOrder = 2
+      OnClick = btnEntrarClick
     end
     object CheckBox1: TCheckBox
       Left = 27

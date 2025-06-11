@@ -1,18 +1,23 @@
-program VisttaPro;
+﻿program VisttaPro;
 
 uses
   Vcl.Forms,
-  Login in 'Login.pas' {fmLogin},
-  Inicio in 'Inicio.pas' {Form1},
-  U_DM in 'U_DM.pas' {DM: TDataModule};
+  Login in 'Login.pas' {FLogin},
+  Inicio in 'Inicio.pas' {frmInicio},
+  U_DM in 'U_DM.pas' {DM},
+  CadUsuario in 'CadUsuario.pas' {FCadUsuario};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TfmLogin, fmLogin);
-  Application.CreateForm(TForm1, Form1);
+
+  // Primeiro cria o formulário MDI principal
+  Application.CreateForm(TfmInicio, fmInicio);
+
+  // Depois cria o DataModule
   Application.CreateForm(TDM, DM);
+
   Application.Run;
 end.

@@ -1,0 +1,47 @@
+unit Inicio;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TfmInicio = class(TForm)
+    MainMenu1: TMainMenu;
+    Sistema1: TMenuItem;
+    N0AlterarSenha1: TMenuItem;
+    Q_Padrao: TFDQuery;
+    DS_Padrao: TDataSource;
+    StatusBar1: TStatusBar;
+    Timer1: TTimer;
+    N0Cadastro1: TMenuItem;
+    N0Cadastro2: TMenuItem;
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmInicio: TfmInicio;
+
+implementation
+
+{$R *.dfm}
+
+uses U_DM;
+
+procedure TfmInicio.Timer1Timer(Sender: TObject);
+begin
+  // Insere os dados na StatusBar
+  Statusbar1.Panels[0].Text:=DateTostr(now);
+  Statusbar1.Panels[1].Text:=TimeTostr(now);
+  Statusbar1.Panels[2].Text:='SEJA BEM VINDO AO SISTEMA VISTTA PRO';
+end;
+
+end.
